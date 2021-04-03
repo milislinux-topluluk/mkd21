@@ -1,0 +1,4 @@
+libstatgrab.so.10
+libpthread.so.0
+libc.so.6
+libncursesw.so.6

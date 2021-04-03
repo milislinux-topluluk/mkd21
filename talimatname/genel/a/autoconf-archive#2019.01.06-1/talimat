@@ -1,0 +1,21 @@
+[paket]
+tanim   = Serbestçe yeniden kullanılabilir Autoconf makroları koleksiyonu
+paketci = yasarciv67
+grup    = sistem
+url     = https://www.gnu.org/software/autoconf-archive/
+
+[gerek]
+derleme = texinfo autoconf
+calisma =
+
+[kaynak]
+xz      = ${GNU_SITE}/${isim}
+
+[sha256]
+1       = 17195c833098da79de5778ee90948f4c5d90ed1a0cf8391b4ab348e2ec511e3f
+
+[derle]
+tip     = gnu
+
+[pakur]
+tip     = gnu

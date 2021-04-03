@@ -1,0 +1,21 @@
+[paket]
+tanim   = İlave GNOME temaları
+paketci = yasarciv67
+grup    = sistem
+url     = https://gitlab.gnome.org/GNOME/gnome-themes-extra
+
+[gerek]
+derleme = intltool glib gtk2 gtk3 librsvg cantarell-fonts adwaita-icon-theme
+calisma =
+
+[kaynak]
+1       = ${GNOME_SITE}/${isim}/${surum}/${isim}-${surum}.tar.xz
+
+[sha256]
+1       = 7c4ba0bff001f06d8983cfc105adaac42df1d1267a2591798a780bac557a5819	
+
+[derle]
+tip     = 	gnu
+
+[pakur]
+tip     = 	gnu

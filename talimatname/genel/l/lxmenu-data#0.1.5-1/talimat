@@ -1,0 +1,21 @@
+[paket]
+tanim   = LXDE freedesktop menü için gerekli dosyalar
+paketci = yasarciv67
+grup    = sistem
+url     = http://lxde.org
+
+[gerek]
+derleme = intltool
+calisma =
+
+[kaynak]
+xz      = ${SOURCEFORGE_SITE}/lxde
+
+[sha256]
+1       = 9fe3218d2ef50b91190162f4f923d6524c364849f87bcda8b4ed8eb59b80bab8
+
+[derle]
+tip     = gnu
+
+[pakur]
+tip     = gnu

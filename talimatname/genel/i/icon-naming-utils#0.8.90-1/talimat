@@ -1,0 +1,21 @@
+[paket]
+tanim   = GNOME ve KDE simge adlarını Simge Adlandırma Özelliğine uyarlar
+paketci = yasarciv67
+grup    = sistem
+url     = http://tango.freedesktop.org/Standard_Icon_Naming_Specification
+
+[gerek]
+derleme    = perl-xml-simple
+calisma    =
+
+[kaynak]
+bz2         = http://tango.freedesktop.org/releases
+
+[sha256]
+1          = b1378679df4485b4459f609a3304238b3e92d91e43744c47b70abbe690d883d5
+
+[derle]
+tip        = gnu
+
+[pakur]
+tip        = gnu

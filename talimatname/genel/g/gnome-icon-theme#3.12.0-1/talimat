@@ -1,0 +1,23 @@
+[paket]
+tanim   = GNOME için bir dizi simge içeren tema
+paketci = yasarciv67
+grup    = tasarım
+url     = http://www.gnome.org
+
+[gerek]
+derleme    = gtk3 librsvg icon-naming-utils
+calisma    =
+
+[kaynak]
+xz          = https://download.gnome.org/sources/$isim/${surum%.*}
+
+[sha256]
+1          = 359e720b9202d3aba8d477752c4cd11eced368182281d51ffd64c8572b4e503a
+
+[derle]
+ekconf     = --enable-icon-mapping
+tip        = gnu
+
+[pakur]
+tip        = gnu
+betik      = rm -f ${PKG}/usr/share/icons/gnome/icon-theme.cache

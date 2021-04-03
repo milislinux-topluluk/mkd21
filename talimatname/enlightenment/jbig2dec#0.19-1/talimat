@@ -1,0 +1,23 @@
+[paket]
+tanim   = JBIG2 formatı için kod çözücü gerçeklemesi
+paketci = milisarge
+grup 	= kütüphane
+url     = https://jbig2dec.com
+
+[gerek]
+derleme = libpng
+calisma = 
+
+[kaynak]
+1      = https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9530/${isim}-${surum}.tar.gz
+
+[sha512]
+1 		= 0d3ec8123b446b5b74846b189004c188e82cdf7b1c7ec3e02f98892aaa249fba0b0fe7f1db7036f2571b0ef2a5df22d1997d3d3f5479c9bef7851bf114134737
+
+[derle]
+ekconf  = --disable-static
+betik	= autoreconf -vfi
+tip 	= gnu
+	      
+[pakur]
+tip 	= gnu

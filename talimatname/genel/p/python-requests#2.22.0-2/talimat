@@ -1,0 +1,27 @@
+[paket]
+tanim   = Python için basit ama zarif bir HTTP Kütüphanesi.
+paketci = yasarciv67
+grup    = kütüphane
+url     = http://python-requests.org
+
+[gerek]
+derleme    = ca-certificates python-chardet python-urllib3 python-idna
+calisma    = ca-certificates python-chardet python-urllib3 python-idna
+
+[kaynak]
+1          = ${PYPI_SITE}/r/requests/requests-${surum}.tar.gz
+dosya	   = certs.patch
+
+[sha256]
+1          = 11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4
+2		   = 3fa0c8ef2018ef0987d2daff79765b99abd99c539f2ec1241bcf9c31b1a4fd75
+
+[derle]
+betik	   = cd requests-$surum
+betik	   = sed -e '/certifi/d' -i setup.py
+yama	   = certs.patch
+tip        = py3
+
+[pakur]
+betik	   = cd requests-$surum
+tip        = py3

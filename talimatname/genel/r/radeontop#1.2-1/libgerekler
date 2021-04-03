@@ -1,0 +1,8 @@
+libxcb.so.1
+libxcb-dri2.so.0
+libpthread.so.0
+libc.so.6
+libpciaccess.so.0
+libdrm.so.2
+libdl.so.2
+libncursesw.so.6

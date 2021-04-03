@@ -1,0 +1,26 @@
+[paket]
+tanim   = Lightdm Qt istemci kütüphanesi
+paketci = yasarciv67
+grup    = sistem
+url     = https://github.com/CanonicalLtd/lightdm
+arsiv	= lightdm-$surum
+
+[gerek]
+derleme    = itstool libgcrypt dbus-glib libxklavier libxml2 libxcb libxdmcp dbus qt5-base
+calisma    = 
+
+[kaynak]
+1          = https://github.com/CanonicalLtd/lightdm/releases/download/${surum}/lightdm-${surum}.tar.xz
+
+[sha256]
+1          = a118779650a3a5b20f05d53c4f9e377b484fbc1810a6b0914a60840d9a581f95
+
+
+[derle]
+betik	   = export MOC5=moc-qt5
+ekconf     =  --disable-tests --enable-introspection=no --enable-liblightdm-qt5=yes
+tip        = gnu
+
+[pakur]
+betik		= make DESTDIR=$PKG -C liblightdm-qt install
+

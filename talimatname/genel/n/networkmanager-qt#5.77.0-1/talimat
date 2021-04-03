@@ -1,0 +1,22 @@
+[paket]
+tanim   = NetworkManager API için Qt sarmalayıcı
+paketci = yasarciv
+grup    = ağ
+url     = https://invent.kde.org/frameworks/networkmanager-qt
+
+[gerek]
+derleme = cmake extra-cmake-modules qt5-base qt5-tools networkmanager
+calisma =
+
+[kaynak]
+1       = ${KDE_SITE}/frameworks/${surum%.*}/${isim}-${surum}.tar.xz
+
+[sha256]
+1       = 9f8e4937565e4bc9e29aa316aef5e1a4efcc53860c313f12eb24dab54194d3dd
+
+[derle]
+ekconf     = -DBUILD_TESTING=OFF
+tip     = cmake
+
+[pakur]
+tip     = cmake

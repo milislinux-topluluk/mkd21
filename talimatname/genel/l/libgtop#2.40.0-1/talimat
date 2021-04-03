@@ -1,0 +1,21 @@
+[paket]
+tanim   = GNOME'da kullanılan sistem bilgilerini almak için kütüphane
+paketci = yasarciv67
+grup    = kütüphane
+url     = https://developer.gnome.org/libgtop/stable/
+
+[gerek]
+derleme = perl glib libxau gobject-introspection
+calisma =
+
+[kaynak]
+xz      = ${GNOME_SITE}/${isim}/${surum%.*}
+
+[sha256]
+1       = 78f3274c0c79c434c03655c1b35edf7b95ec0421430897fb1345a98a265ed2d4
+
+[derle]
+tip     = gnu
+
+[pakur]
+tip     = gnu

@@ -1,0 +1,23 @@
+[paket]
+tanim   = LXDE freedesktop menü özellikleri
+paketci = yasarciv67
+grup    = sistem
+url     = http://lxde.org
+
+[gerek]
+derleme = glib libfm-extra
+calisma =
+
+[kaynak]
+xz      = ${SOURCEFORGE_SITE}/lxde
+
+[sha256]
+1       = ed02eb459dcb398f69b9fa5bf4dd813020405afc84331115469cdf7be9273ec7
+
+[derle]
+betik   = sed -i 's,<libfm/fm-extra.h>,<libfm-1.0/fm-extra.h>,g' menu-cache-gen/*.[ch]
+ekconf     = --disable-static
+tip     = gnu
+
+[pakur]
+tip     = gnu

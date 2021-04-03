@@ -1,0 +1,17 @@
+libcolordprivate.so.2.0.5
+libcolord.so.2.0.5
+libcolorhug.so.2.0.5
+libcolord_sensor_argyll.so
+libcolord_sensor_colorhug.so
+libcolord_sensor_dtp94.so
+libcolord_sensor_dummy.so
+libcolord_sensor_huey.so
+libcolord_sensor_camera.so
+libcolord_sensor_scanner.so
+libcolord_sensor_sane.so
+libcolorhug.so
+libcolorhug.so.2
+libcolord.so
+libcolord.so.2
+libcolordprivate.so
+libcolordprivate.so.2

@@ -1,0 +1,17 @@
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libc.so.6
+libcolorhug.so.2
+libgusb.so.2
+libgudev-1.0.so.0
+libcolord.so.2
+liblcms2.so.2
+libcolordprivate.so.2
+libm.so.6
+libudev.so.1
+libdbus-1.so.3
+libsane.so.1
+libgmodule-2.0.so.0
+libpolkit-gobject-1.so.0
+libsqlite3.so.0
