@@ -5,8 +5,8 @@ grup    = kütüphane
 url     = https://enlightenment.org
 
 [gerek]
-derleme    = meson ninja avahi bullet libpng libjpeg-turbo gst-plugins-base zlib luajit tiff openssl curl dbus fontconfig freetype fribidi libsndfile mesa libglvnd giflib util-linux poppler libspectre libxkbfile libwebp connman
-; pulseaudio libx11 libxau libxcomposite libxdamage libxdmcp libxext libxfixes libxinerama libxrandr libxrender libxss libxtst libxcursor libxp libxi libraw librsvg ibus vlc 
+derleme    = meson ninja avahi bullet libpng libjpeg-turbo gst-plugins-base zlib luajit tiff openssl curl dbus fontconfig freetype fribidi libsndfile mesa libglvnd giflib util-linux poppler libspectre libxkbfile libwebp libraw connman
+; pulseaudio libx11 libxau libxcomposite libxdamage libxdmcp libxext libxfixes libxinerama libxrandr libxrender libxss libxtst libxcursor libxp libxi librsvg ibus vlc 
 calisma    =
 
 [kaynak]
@@ -17,7 +17,7 @@ xz         = https://download.enlightenment.org/rel/libs/efl
 
 [derle]
 betik	   = export CFLAGS="$CFLAGS -fvisibility=hidden"
-ekconf     =  -Dsystemd=false -Dbuild-tests=false -Dnetwork-backend=connman -Dopengl=full -Decore-imf-loaders-disabler=scim -Dglib=true -Devas-loaders-disabler=json -Dbuild-examples=false -Dfb=true -Ddrm=true -Dcrypto=openssl -Dwl=true -Dx11=false
+ekconf     =  -Dsystemd=false -Dbuild-tests=false -Dnetwork-backend=connman -Dopengl=full -Decore-imf-loaders-disabler=scim -Dglib=true -Devas-loaders-disabler=json -Dbuild-examples=false -Dfb=true -Ddrm=true -Dcrypto=openssl -Dwl=true -Dx11=false -Dpulseaudio=false -Dlibrsvg=false
 tip        = meson
 
 [pakur]
