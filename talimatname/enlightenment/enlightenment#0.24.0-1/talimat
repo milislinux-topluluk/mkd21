@@ -5,8 +5,8 @@ grup    = masaüstü
 url     = https://enlightenment.org
 
 [gerek]
-derleme    = meson ninja efl openconnect bluez pixman mesa desktop-file-utils dejavu-fonts-ttf pam xkeyboard-config pm-utils polkit 
-; xcb-util-keysyms udisks 
+derleme    = meson ninja efl openconnect bluez pixman mesa desktop-file-utils dejavu-fonts-ttf pam xkeyboard-config pm-utils 
+; xcb-util-keysyms udisks polkit 
 calisma    =
 
 [kaynak]
