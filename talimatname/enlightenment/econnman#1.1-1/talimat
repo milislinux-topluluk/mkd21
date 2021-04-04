@@ -1,11 +1,12 @@
 [paket]
 tanim   = Enlightenment ConnMan kullanıcı arayüzü
-paketci = yasarciv67
+paketci = yasarciv
 grup    = ağ
 url     = http://enlightenment.org
 
 [gerek]
-derleme = python efl python-dbus connman desktop-file-utils
+derleme = python efl connman desktop-file-utils
+;python-dbus 
 calisma =
 
 [kaynak]

@@ -1,11 +1,12 @@
 [paket]
 tanim   = Enlightenment'in terminal emulatorü
-paketci = yasarciv67
+paketci = yasarciv
 grup    = sistem
 url     = https://www.enlightenment.org
 
 [gerek]
-derleme = meson efl desktop-file-utils xdg-utils
+derleme = meson efl desktop-file-utils 
+;xdg-utils
 calisma =
 
 [kaynak]

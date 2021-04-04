@@ -5,7 +5,8 @@ grup    = masaüstü
 url     = https://enlightenment.org
 
 [gerek]
-derleme    = meson ninja efl polkit openconnect bluez xcb-util-keysyms pixman mesa desktop-file-utils udisks dejavu-fonts-ttf pam xkeyboard-config pm-utils
+derleme    = meson ninja efl openconnect bluez pixman mesa desktop-file-utils dejavu-fonts-ttf pam xkeyboard-config pm-utils polkit 
+; xcb-util-keysyms udisks 
 calisma    =
 
 [kaynak]
@@ -15,7 +16,7 @@ xz         = https://download.enlightenment.org/rel/apps/$isim
 1          = e7bb0d6b2a9661bd0b2ca15c6bca20ec654a01aff8865f9f594efada3a1c0504
 
 [derle]
-ekconf     =  -Dsystemd=false -Dconnman=true
+ekconf     =  -Dsystemd=false -Dconnman=true -Dwl=true -Dxwayland=false -Dwl-x11=false -Dmount-udisks=false -Dmount-eeze=true -Dmixer=false -Dwizard=false
 tip        = meson
 
 [pakur]
