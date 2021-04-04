@@ -5,8 +5,7 @@ grup 	= kütüphane
 url     = http://librsvg.sourceforge.net/
 
 [gerek]
-derleme = gobject-introspection gdk-pixbuf pango libcroco
-; rust 
+derleme = gobject-introspection gdk-pixbuf pango libcroco rust 
 calisma = 
 
 [kaynak]
