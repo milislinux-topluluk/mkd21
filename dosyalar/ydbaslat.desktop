@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Yerel Depo Başlat
+Comment=Yerel Deponuzu sistem açılışında başlatın
+Exec=/usr/milis/bin/yd_baslat.sh
+Icon=x-package-repository
