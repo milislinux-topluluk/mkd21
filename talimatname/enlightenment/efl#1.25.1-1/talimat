@@ -5,7 +5,11 @@ grup    = kütüphane
 url     = https://enlightenment.org
 
 [gerek]
+<<<<<<< HEAD:talimatname/enlightenment/efl#1.25.1-1/talimat
 derleme    = meson ninja avahi bullet libpng libjpeg-turbo gst-plugins-base zlib luajit tiff openssl curl dbus fontconfig freetype fribidi libsndfile mesa libglvnd giflib util-linux poppler libspectre libxkbfile libwebp libraw connman librsvg
+=======
+derleme    = meson ninja avahi bullet libpng libjpeg-turbo gst-plugins-base zlib luajit tiff openssl curl dbus fontconfig freetype fribidi libsndfile mesa libglvnd giflib util-linux poppler libspectre libxkbfile libwebp libraw connman librsvg ibus wayland-protocols
+>>>>>>> 99b6e937ff5dbc1b28616cbb1578eb0eadef4338:talimatname/enlightenment/efl#1.24.1-1/talimat
 ; pulseaudio libx11 libxau libxcomposite libxdamage libxdmcp libxext libxfixes libxinerama libxrandr libxrender libxss libxtst libxcursor libxp libxi vlc 
 calisma    =
 
@@ -16,7 +20,11 @@ xz         = https://download.enlightenment.org/rel/libs/efl
 ;1          = 351ca0211ca000234527a503585f039f985607ec9439e34b49d8b8bbf35a7e6b
 
 [derle]
+<<<<<<< HEAD:talimatname/enlightenment/efl#1.25.1-1/talimat
 ;betik	   = export CFLAGS="$CFLAGS -fvisibility=hidden"
+=======
+betik	   = export CFLAGS="$CFLAGS -fvisibility=hidden"
+>>>>>>> 99b6e937ff5dbc1b28616cbb1578eb0eadef4338:talimatname/enlightenment/efl#1.24.1-1/talimat
 ekconf     =  -Dsystemd=false -Dbuild-tests=false -Dnetwork-backend=connman -Dopengl=full -Decore-imf-loaders-disabler=scim -Dglib=true -Devas-loaders-disabler=json -Dbuild-examples=false -Dfb=true -Ddrm=true -Dcrypto=openssl -Dwl=true -Dx11=false -Dpulseaudio=false
 tip        = meson
 
