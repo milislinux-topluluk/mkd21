@@ -13,10 +13,10 @@ calisma    =
 xz         = https://download.enlightenment.org/rel/apps/$isim
 
 [sha256]
-1          = e7bb0d6b2a9661bd0b2ca15c6bca20ec654a01aff8865f9f594efada3a1c0504
+1          = be18e2f18d6c0b058f633e769863d3cbc4c07b629058ae670dec74cd7906dff1
 
 [derle]
-ekconf     =  -Dsystemd=false -Dconnman=true -Dwl=true -Dxwayland=false -Dwl-x11=false -Dmount-udisks=false -Dmount-eeze=true -Dmixer=false -Dwizard=false
+ekconf     =  -Dsystemd=false -Dconnman=true -Dwl=true -Dwl-x11=false -Dmount-udisks=false -Dmount-eeze=true -Dmixer=false -Dwizard=false
 tip        = meson
 
 [pakur]
