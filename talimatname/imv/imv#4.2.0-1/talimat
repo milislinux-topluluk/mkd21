@@ -1,0 +1,24 @@
+[paket]
+tanim   = X11 / Wayland için resim görüntüleyici
+paketci = yasarciv
+grup    = medya
+url     = https://github.com/eXeC64/imv
+
+[gerek]
+derleme = meson cmake glu librsvg libheif libxkbcommon pango wayland libinih cmocka freeimage
+;  desktop-file-utils
+calisma =
+
+[kaynak]
+1       = https://github.com/eXeC64/imv/archive/v${surum}.tar.gz
+
+[sha256]
+1       = 7d3de0462ce0cd705a719b12648661c8d91245cc7732eac4e459c465bc6b3d94
+
+[derle]
+ekconf = -D man=disabled
+tip     = meson
+
+[pakur]
+tip     = meson
+
