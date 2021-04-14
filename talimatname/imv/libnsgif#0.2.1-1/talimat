@@ -15,9 +15,9 @@ calisma =
 1       = 9eaea534cd70b53c5aaf45317ae957701685a6b4a88dbe34ed26f4faae879a4b
 
 [derle]
-betik   = make ${makejobs} COMPONENT_TYPE=lib-shared PREFIX=/usr
-betik   = make ${makejobs} COMPONENT_TYPE=lib-static PREFIX=/usr
+betik   = make PREFIX=/usr COMPONENT_TYPE=lib-shared
+betik   = make PREFIX=/usr COMPONENT_TYPE=lib-static
 
 [pakur]
-betik   = make COMPONENT_TYPE=lib-shared PREFIX=/usr DESTDIR=${PKG} install
-betik   = make COMPONENT_TYPE=lib-static PREFIX=/usr DESTDIR=${PKG} install
+betik   = make install PREFIX=/usr DESTDIR="$PKG" COMPONENT_TYPE=lib-shared
+betik   = make install PREFIX=/usr DESTDIR="$PKG" COMPONENT_TYPE=lib-static
