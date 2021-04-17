@@ -1,0 +1,24 @@
+[paket]
+tanim   = LXDE dosya yöneticisi
+paketci = yasarciv
+grup    = sistem
+url     = http://pcmanfm.sourceforge.net
+
+[gerek]
+derleme = pkg-config intltool gtk3 libfm-gtk3 desktop-file-utils
+calisma =
+
+[kaynak]
+xz       = ${SOURCEFORGE_SITE}/${isim}
+
+[sha256]
+1       = 14cb7b247493c4cce65fbb5902611e3ad00a7a870fbc1e50adc50428c5140cf7
+
+[derle]
+ekconf     = --with-gtk=3
+tip     = gnu
+
+[pakur]
+tip     = gnu
+;betik   = ln -sf /etc/xdg/pcmanfm/default/pcmanfm.conf ${PKG}/usr/share/lxde/pcmanfm/pcmanfm.conf
+;betik   = ln -sf /usr/lib/libfm/modules ${PKG}/usr/lib/pcmanfm
