@@ -5,7 +5,7 @@ grup    = kütüphane
 url     = http://pcmanfm.sourceforge.net
 
 [gerek]
-derleme = automake gettext glib intltool libtool vala dbus-glib gtk3 libexif menu-cache libfm-extra
+derleme = gettext glib intltool libtool vala dbus-glib gtk3 libexif menu-cache libfm-extra
 calisma =
 
 [kaynak]
@@ -15,7 +15,6 @@ xz      = ${SOURCEFORGE_SITE}/pcmanfm
 1       = a5042630304cf8e5d8cff9d565c6bd546f228b48c960153ed366a34e87cad1e5
 
 [derle]
-betik   = autoreconf -fi
 ekconf     = --enable-udisks --disable-static --with-gtk=3
 tip     = gnu
 
