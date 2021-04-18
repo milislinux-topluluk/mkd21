@@ -20,7 +20,6 @@ tip     = gnu
 
 [pakur]
 tip     = gnu
-betik   = rm -f ${PKG}/usr/lib/libfm-extra.so*
-betik   = rm -f ${PKG}/usr/lib/pkgconfig/libfm-extra.pc
-betik   = rm -f ${PKG}/usr/include/libfm/fm-{extra,version,xml-file}.h
-
+betik	= rm -r $PKG/usr/include/libfm
+betik	= mv $PKG/usr/include/libfm-1.0/ $PKG/usr/include/libfm
+betik	= rm -r $PKG/usr/include/libfm/fm-{extra,version,xml-file}.h $PKG/usr/lib/libfm-extra.* $PKG/usr/lib/pkgconfig/libfm-extra.pc

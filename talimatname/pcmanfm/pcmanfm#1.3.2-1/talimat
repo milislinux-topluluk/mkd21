@@ -5,7 +5,7 @@ grup    = sistem
 url     = http://pcmanfm.sourceforge.net
 
 [gerek]
-derleme = pkg-config intltool gtk3 libfm-gtk3 desktop-file-utils
+derleme = intltool gtk3 libfm desktop-file-utils
 calisma =
 
 [kaynak]
