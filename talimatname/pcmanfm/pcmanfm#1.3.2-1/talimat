@@ -20,5 +20,3 @@ tip     = gnu
 
 [pakur]
 tip     = gnu
-;betik   = ln -sf /etc/xdg/pcmanfm/default/pcmanfm.conf ${PKG}/usr/share/lxde/pcmanfm/pcmanfm.conf
-;betik   = ln -sf /usr/lib/libfm/modules ${PKG}/usr/lib/pcmanfm
