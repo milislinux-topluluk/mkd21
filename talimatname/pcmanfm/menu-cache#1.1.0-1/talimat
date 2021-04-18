@@ -5,7 +5,7 @@ grup    = kütüphane
 url     = http://lxde.org
 
 [gerek]
-derleme = glib libfm-extra
+derleme = glib libfm
 calisma =
 
 [kaynak]

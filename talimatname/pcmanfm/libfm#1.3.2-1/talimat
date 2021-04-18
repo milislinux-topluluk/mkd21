@@ -5,7 +5,7 @@ grup    = kütüphane
 url     = http://pcmanfm.sourceforge.net
 
 [gerek]
-derleme = gettext glib intltool libtool vala dbus-glib gtk3 libexif menu-cache
+derleme = gettext glib intltool libtool vala dbus-glib gtk3 libexif
 
 [kaynak]
 xz      = ${SOURCEFORGE_SITE}/pcmanfm
