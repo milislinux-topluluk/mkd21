@@ -3,6 +3,7 @@ tanim   = Elementary OS simge teması
 paketci = yasarciv
 grup    = tasarım
 url     = https://github.com/elementary/icons
+arsiv	= icons-$surum
 
 [gerek]
 derleme = meson
