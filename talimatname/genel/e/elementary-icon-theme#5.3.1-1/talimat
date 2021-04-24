@@ -1,0 +1,21 @@
+[paket]
+tanim   = Elementary OS simge teması
+paketci = yasarciv
+grup    = tasarım
+url     = https://github.com/elementary/icons
+
+[gerek]
+derleme = meson
+calisma =
+
+[kaynak]
+1       = https://github.com/elementary/icons/archive/refs/tags/$surum.tar.gz::$isim-$surum.tar.gz
+
+[sha256]
+;1       = dc82fc24c0540a44a63fa4ad21775d24e00e63f1dedd3e2ae6f7aa27583b711b
+
+[derle]
+tip     = meson
+
+[pakur]
+tip     = meson
