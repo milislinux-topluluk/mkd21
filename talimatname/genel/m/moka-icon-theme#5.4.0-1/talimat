@@ -1,0 +1,20 @@
+[paket]
+tanim   = Moka, net, basit ve tutarlı olacak şekilde tasarlanmış, stil sahibi bir Linux masaüstü simge setidir.
+paketci = yasarciv
+grup    = tasarım
+url     = https://github.com/snwh/moka-icon-theme
+
+[gerek]
+derleme = meson gtk-update-icon-cache
+calisma =
+
+[kaynak]
+1		= https://github.com/snwh/$isim/archive/v$surum.tar.gz
+
+[sha256]
+
+[derle]
+tip     = meson
+
+[pakur]
+tip     = meson
