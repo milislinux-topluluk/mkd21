@@ -5,7 +5,7 @@ grup    = tasarım
 url     = https://github.com/snwh/moka-icon-theme
 
 [gerek]
-derleme = meson gtk-update-icon-cache
+derleme = meson 
 calisma =
 
 [kaynak]
