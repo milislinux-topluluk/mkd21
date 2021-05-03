@@ -1,0 +1,26 @@
+[paket]
+tanim   = GTK+ indirme yöneticisi
+paketci = yasarciv
+grup    = ağ
+url     = http://ugetdm.com
+
+[gerek]
+derleme    = intltool libnotify gtk3 curl gstreamer 
+calisma    = aria2
+
+[kaynak]
+1         = ${SOURCEFORGE_SITE}/urlget/$isim-$surum-1.tar.gz
+dosya	  = gcc10.patch
+
+[sha256]
+1          = 11356e4242151b9014fa6209c1f0360b699b72ef8ab47dbeb81cc23be7db9049
+2		   = f1f5cd7fbe57387178e107d4672d2b4550fe5f5200fc6ab139b6ee43ccf87093
+
+[derle]
+betik	   = sed -i '/GenericName=Download Manager/a GenericName[tr]=İndirme Yöneticisi' uget-gtk.desktop
+betik	   = sed -i '/^Comment/a Comment[tr]=Birden çok URL indirme-kuyruklama' uget-gtk.desktop
+yama	   = gcc10.patch
+tip        = gnu
+
+[pakur]
+tip        = gnu
