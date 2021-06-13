@@ -1,8 +1,8 @@
 [paket]
 tanim   = C++ için X arayüz kütüphanesi
-paketci	= milisarge
+paketci	= milisarge yasarciv
 grup	= kütüphane
-url	    = http://www.fox-toolkit.org
+url	    = http://fox-toolkit.org
 
 [gerek]
 derleme	= libxcursor libxft libxrandr libxi libpng tiff glu mesa
@@ -12,7 +12,7 @@ calisma	=
 gz	    = $url/ftp
 
 [sha256]
-1	    = 65ef15de9e0f3a396dc36d9ea29c158b78fad47f7184780357b929c94d458923
+1	    = 0505ffcc7e7e5167faa432a45a0f68f4f716b51a48732f386b3e21372ef26443
 
 [derle]
 betik   = sed -i "/strtoll.\(cpp\|obj\)/d; s/strtoll.lo//" src/Makefile.in

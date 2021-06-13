@@ -1,0 +1,22 @@
+[paket]
+tanim 	= X için dosya yöneticisi
+paketci	= milisarge yasarciv
+grup 	= sistem
+url 	= http://roland65.free.fr/xfe
+
+[gerek]
+derleme = intltool libxft freetype xcb-util fox
+calisma = 
+
+[kaynak]
+xz   	= https://downloads.sourceforge.net/sourceforge/$isim
+
+[sha256]
+1 		= 594c14d185bdfc7e3132aefda7cf4e233625258ca9a1939359944a2c07c030b6
+
+[derle]
+betik   = ./autogen.sh
+tip     = gnu
+
+[pakur]
+tip     = gnu
