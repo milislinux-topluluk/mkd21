@@ -5,7 +5,8 @@ grup    = medya
 url     = https://audacious-media-player.org
 
 [gerek]
-derleme = glib libsm dbus-glib qt5 desktop-file-utils alsa-lib pulseaudio jack lame libvorbis flac mpg123 faad2 ffmpeg wavpack neon libnotify libcdio-paranoia fluidsynth libbs2b libmms libcue libsamplerate mesa
+derleme = glib libsm dbus-glib qt5 desktop-file-utils alsa-lib pulseaudio  lame libvorbis flac mpg123 faad2 ffmpeg wavpack neon libnotify libcdio-paranoia fluidsynth libbs2b libmms libcue libsamplerate mesa
+;jack
 calisma = 
 
 [kaynak]
