@@ -6,7 +6,7 @@ url     = https://poppler.freedesktop.org
 arsiv   = "poppler-${surum}"
 
 [gerek]
-derleme = cmake qt5 libpng tiff lcms2 fontconfig cairo openjpeg2 poppler
+derleme = cmake boost qt5 libpng tiff lcms2 fontconfig cairo openjpeg2 poppler
 calisma =
 
 [kaynak]
