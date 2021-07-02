@@ -21,7 +21,7 @@
 3) _conf.lua_ dosyasındaki `--[2]="http://localhost:9999"` satırının başındaki -- ifadesini silip dosyayı kaydedin.
 4) terminalden `sudo mps gun` komutu verin. Burada yerel depoya ulaşamadığını belirten bir uyarı verecektir önemsemeyin.
 5) Paketleri ürettiğiniz `/mnt/mpsdo21/rw/opt` dizininde _paket.vt_ isimli boş bir dosya oluşturun ve aynı dizinde terminal açarak `toplu_pkvt_ekle.sh` komutu verin.
-6) Masaüstü oturumunu kapatıp yeniden başlattıktan sonra terminalden `sudo mps gun -P` komutu verdiğinizde yerel deponuzun resmi milis deposu altında *http://localhost:9999* adıyla listelendiğini görmelisiniz.
+6) Terminalden `sudo mps gun -P` komutu verdiğinizde yerel deponuzun resmi milis deposu altında *http://localhost:9999* adıyla listelendiğini görmelisiniz.
 
 **Not**: Paketler derleme ortamının `/opt` dizininde üretilmelidir, bu sebeple yerel depo başlatma betikleri `/mnt/mpsdo21/rw/opt` dizini için ayarlanmıştır. Derleme ortamına girdiğinizde mutlaka `cd /opt` komutu vermeyi unutmayın. 
 Eğer derleme ortamı kullanılmadan çalışan sistemde paket üretilmişse, yerel deponun düzgün çalışması için `/usr/milis/bin/yd_baslat.sh` ve `toplu_pkvt_ekle.sh` dosyaları paketlerin üretildiği dizine göre düzenlenmelidir.
