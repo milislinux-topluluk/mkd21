@@ -34,9 +34,9 @@ sed -i "/^$(echo ${bpaket} | cut -d'#' -f1) / d" paket.vt
 cat ${paket}.bilgi >> paket.vt
 
 # paketi ydk e aktar
-mv -v ${paket}*  /mnt/mpsdo/rw/opt/ydk/
-mv -v $(dirname ${paket})/*.yur  /mnt/mpsdo/rw/opt/ydk/
-mv -v $(dirname ${paket})/*.pktlibler  /mnt/mpsdo/rw/opt/ydk/
-mv -v $(dirname ${paket})/*.libgerekler  /mnt/mpsdo/rw/opt/ydk/
+mv -v ${paket}*  /mnt/mpsdo21/rw/opt/ydk/
+mv -v $(dirname ${paket})/*.yur  /mnt/mpsdo21/rw/opt/ydk/
+mv -v $(dirname ${paket})/*.pktlibler  /mnt/mpsdo21/rw/opt/ydk/
+mv -v $(dirname ${paket})/*.libgerekler  /mnt/mpsdo21/rw/opt/ydk/
 # uzak paketdepo yukleme-senkronize etme
 #rsync -avh --delete  -e ssh  . 192.168.1.10:/opt/milis-site/paketler/
