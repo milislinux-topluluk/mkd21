@@ -11,14 +11,17 @@ calisma =
 [kaynak]
 1       = https://launchpad.net/qpdfview/trunk/${surum}/+download/qpdfview-${surum}.tar.gz
 dosya   = gcc-qpdfview.patch
+dosya	= qpdfview_tr.ts
 
 [sha256]
 1       = cc642e7fa74029373ca9b9fbc29adc4883f8b455130a78ad54746d6844a0396c
 2       = 5314091e35031f5ebf38a827b64e524e2f5dab8a5c2d3c0e081fb7a634ebe301
+3		= c35f915c638884f764cc0758d38e2b208a2f16852a8d3bec137af71d043fec7f
 
 [derle]
 betik   = sed -e 's|2.0.0|1.21.0|' -i application.pro
 betik   = patch -Np1 < ../gcc-qpdfview.patch
+betik	= mv $SRC/qpdfview_tr.ts translations/qpdfview_tr.ts
 betik   = lrelease-qt5 qpdfview.pro
 betik   = qmake-qt5 qpdfview.pro
 betik   = make
