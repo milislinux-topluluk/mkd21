@@ -13,7 +13,7 @@ calisma =
 1       = ${url}/poppler-${surum}.tar.xz
 
 [sha256]
-1       = 86b09e5a02de40081a3916ef8711c5128eaf4b1fc59d5f87d0ec66f04f595db4
+1       = 5e2219656c6bbd36154133fef2e12b7d0938464518827098b29a10b1697ea79c
 
 [derle]
 betik   = export CPLUS_INCLUDE_PATH=/usr/include/openjpeg-2.3
