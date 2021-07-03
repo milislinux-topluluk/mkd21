@@ -6,7 +6,6 @@ url     = https://github.com/lirios/fluid
 
 [gerek]
 derleme = qt5 clang liri-cmake-shared 
-;qt5-wayland
 calisma =
 
 [kaynak]
@@ -18,7 +17,7 @@ calisma =
 [derle]
 betik	= ln -s /usr/lib/node_modules/material-design-icons
 betik	= sed -e '/git clone/d' -e '/rm -rf/d' -i scripts/fetch_icons.sh scripts/fetch_icons.sh
-ekconf	= -DFLUID_USE_SYSTEM_LCS:BOOL=ON
+ekconf	= -DFLUID_USE_SYSTEM_LCS:BOOL=ON -DFLUID_WITH_DOCUMENTATION=OFF
 tip     = cmake
 
 [pakur]
