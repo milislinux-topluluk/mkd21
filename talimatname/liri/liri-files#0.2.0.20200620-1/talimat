@@ -6,7 +6,7 @@ url     = https://github.com/lirios/files
 arsiv	= files-7582252b229d71f896936deee9165a38ad468461
 
 [gerek]
-derleme = cmake liri-cmake-shared ninja qt5
+derleme = cmake liri-cmake-shared ninja qt5 fluid
 calisma =
 
 [kaynak]
