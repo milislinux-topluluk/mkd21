@@ -16,7 +16,7 @@ calisma =
 1       = 6dfa6f4ce85863cb764d5ea251623700dd797db61ebfa09e81eda22eee1deee8
 
 [derle]
-betik   = cmake -GNinja -DCMAKE_INSTALL_PREFIX=/usr .
+betik   = cmake -GNinja -DCMAKE_INSTALL_PREFIX=/usr -DFILES_ENABLE_TAGLIB:BOOL=FALSE .
 betik	= ninja
 
 [pakur]
