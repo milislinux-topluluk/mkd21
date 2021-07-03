@@ -7,7 +7,7 @@ arsiv	= files-7582252b229d71f896936deee9165a38ad468461
 
 [gerek]
 derleme = cmake liri-cmake-shared ninja qt5 fluid
-calisma =
+calisma = fluid
 
 [kaynak]
 1       = https://github.com/lirios/files/archive/7582252b229d71f896936deee9165a38ad468461/$isim-7582252b229d71f896936deee9165a38ad468461.tar.gz
