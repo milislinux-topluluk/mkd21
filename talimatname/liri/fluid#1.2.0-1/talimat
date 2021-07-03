@@ -5,7 +5,7 @@ grup    = kütüphane
 url     = https://github.com/lirios/fluid
 
 [gerek]
-derleme = 
+derleme = qt5 qt5-wayland clang liri-cmake-shared qt5-wayland
 calisma =
 
 [kaynak]
