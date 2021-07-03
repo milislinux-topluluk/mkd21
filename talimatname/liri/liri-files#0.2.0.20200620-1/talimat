@@ -3,7 +3,7 @@ tanim   = Liri için Dosya Yönetici
 paketci = yasarciv
 grup    = sistem
 url     = https://github.com/lirios/files
-arsiv	= $isim-7582252b229d71f896936deee9165a38ad468461
+arsiv	= files-7582252b229d71f896936deee9165a38ad468461
 
 [gerek]
 derleme = cmake liri-cmake-shared ninja qt5
