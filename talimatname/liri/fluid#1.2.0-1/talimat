@@ -17,7 +17,7 @@ calisma =
 [derle]
 ;betik	= ln -s /usr/lib/node_modules/material-design-icons
 ;betik	= sed -e '/git clone/d' -e '/rm -rf/d' -i scripts/fetch_icons.sh scripts/fetch_icons.sh
-ekconf	= -DFLUID_USE_SYSTEM_LCS:BOOL=ON -DINSTALL_QMLDIR=lib/qt/qml -DFLUID_WITH_DOCUMENTATION=OFF
+ekconf	= -DFLUID_USE_SYSTEM_LCS:BOOL=ON -DINSTALL_QMLDIR=/usr/lib/qt/qml -DFLUID_WITH_DOCUMENTATION=OFF
 tip     = cmake
 
 [pakur]
