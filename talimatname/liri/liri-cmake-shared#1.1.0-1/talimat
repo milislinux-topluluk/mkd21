@@ -5,7 +5,7 @@ grup    = sistem
 url     = https://github.com/lirios/cmake-shared
 
 [gerek]
-derleme = cmake
+derleme = extra-cmake-modules
 calisma =
 
 [kaynak]
