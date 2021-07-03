@@ -1,0 +1,23 @@
+[paket]
+tanim   = Liri için Dosya Yönetici
+paketci = yasarciv
+grup    = sistem
+url     = https://github.com/lirios/files
+arsiv	= $isim-7582252b229d71f896936deee9165a38ad468461
+
+[gerek]
+derleme = cmake liri-cmake-shared ninja qt5
+calisma =
+
+[kaynak]
+1       = https://github.com/lirios/files/archive/7582252b229d71f896936deee9165a38ad468461/$isim-7582252b229d71f896936deee9165a38ad468461.tar.gz
+
+[sha256]
+1       = 6dfa6f4ce85863cb764d5ea251623700dd797db61ebfa09e81eda22eee1deee8
+
+[derle]
+betik   = cmake -GNinja -DCMAKE_INSTALL_PREFIX=/usr .
+betik	= ninja
+
+[pakur]
+betik	= DESTDIR="$PKG" ninja install

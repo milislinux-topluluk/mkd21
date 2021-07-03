@@ -1,0 +1,22 @@
+[paket]
+tanim   = CMake yapı sistemini kullanan projeler için paylaşılan işlevler ve makrolar.
+paketci = yasarciv
+grup    = sistem
+url     = https://github.com/lirios/cmake-shared
+
+[gerek]
+derleme = cmake
+calisma =
+
+[kaynak]
+xz      = https://github.com/lirios/cmake-shared/releases/download/v${surum}
+
+[sha256]
+1       = f549cc4741e20df6f097960eef809c3119ef08b33194efee957b0c44ab9a1b79
+
+[derle]
+betik   = sed -i -e 's|/qml"|/qt/qml"|' -e 's|LIBDIR/qml|LIBDIR/qt/qml|' $isim-$surum/modules/LiriBuild.cmake
+tip		= cmake
+
+[pakur]
+tip		= cmake
