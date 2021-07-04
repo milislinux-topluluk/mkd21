@@ -5,8 +5,8 @@ grup    = kütüphane
 url     = https://www.xfce.org
 
 [gerek]
-derleme  = intltool libxfce4ui  
-calisma  = 
+derleme  = intltool libxfce4ui perl-uri
+calisma  = perl-uri
 
 [kaynak]
 bz2 = https://archive.xfce.org/src/xfce/$isim/${surum%.*}
