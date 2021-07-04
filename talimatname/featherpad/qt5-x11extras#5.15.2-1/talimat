@@ -15,7 +15,7 @@ calisma =
 1 		= 7014702ee9a644a5a93da70848ac47c18851d4f8ed622b29a72eed9282fc6e3e
 
 [derle]
-betik   = mkdir -p build;cd build;qmake ../qtx11extras-everywhere-src-$surum && make
+betik   = mkdir -p build && cd build && qmake ../qtx11extras-everywhere-src-$surum && make
 
 [pakur]
 betik   = cd build
