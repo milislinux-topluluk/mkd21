@@ -5,8 +5,8 @@ grup    = sistem
 url     = https://www.xfce.org
 
 [gerek]
-derleme  = intltool gobject-introspection vala gtk3 libsm libxfce4util 
-;xfconf startup-notification
+derleme  = intltool gobject-introspection vala gtk3 libsm libxfce4util xfconf 
+;startup-notification
 calisma  =  
 
 [kaynak]
