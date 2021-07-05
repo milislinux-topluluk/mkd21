@@ -6,7 +6,8 @@ url     = http://ugetdm.com
 
 [gerek]
 derleme    = intltool libnotify gtk3 curl gstreamer 
-calisma    = aria2
+calisma    = 
+;aria2
 
 [kaynak]
 1         = ${SOURCEFORGE_SITE}/urlget/$isim-$surum-1.tar.gz
