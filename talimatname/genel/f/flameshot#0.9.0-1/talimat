@@ -1,0 +1,22 @@
+[paket]
+tanim   = Kolay ekran görüntüsü alma yazılımı
+paketci = milisarge yasarciv
+grup    = sistem
+url     = https://github.com/flameshot-org/flameshot
+
+[gerek]
+derleme = cmake qt5 desktop-file-utils
+calisma =
+
+[kaynak]
+github  = flameshot-org/flameshot
+
+[sha256]
+1       = 67e0b578ef8a68228e758cb59395bb7404b5c176e9dbc3ca2d83a63f154a6f22
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake
+betik   = rm -rf ${PKG}/usr/share/zsh
