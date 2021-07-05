@@ -20,6 +20,7 @@ dosya	  = gcc10.patch
 [derle]
 betik	   = sed -i '/GenericName=Download Manager/a GenericName[tr]=İndirme Yöneticisi' uget-gtk.desktop
 betik	   = sed -i '/^Comment/a Comment[tr]=Birden çok URL indirme-kuyruklama' uget-gtk.desktop
+betik	   = sed -i 's/x11/wayland/' uget-gtk.desktop
 yama	   = gcc10.patch
 tip        = gnu
 
