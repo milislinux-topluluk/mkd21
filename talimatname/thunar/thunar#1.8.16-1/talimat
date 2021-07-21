@@ -11,10 +11,12 @@ calisma  = desktop-file-utils
 [kaynak]
 bz2   = https://archive.xfce.org/src/xfce/thunar/${surum%.*}
 dosya = thunar-no-root-warning.patch
+dosya	= uca.xml
 
 [sha256]
 1  = 221338b1cbf14cbee2b9091f9b4e4f47cf6bc9513bbb113762da7ca4f8173c4c
 2  = 6eabd8bb07d435dd1a9a9772963e2089b1ff7127698b406d71983d3c2d834c2e
+3	= c4654624515b669aa35aa0fa603e84aa8205c674395d955edd410309e4f626fe
 
 [derle]
 betik  = patch thunar/thunar-window.c $SRC/thunar-no-root-warning.patch
@@ -23,3 +25,4 @@ tip    = gnu
 
 [pakur]
 tip    = gnu
+betik	= mv $SRC/uca.xml $PKG/etc/xdg/Thunar/uca.xml
