@@ -25,4 +25,6 @@ tip    = gnu
 
 [pakur]
 tip    = gnu
-betik	= mv $SRC/uca.xml $PKG/etc/xdg/Thunar/uca.xml
+betik  = mv $SRC/uca.xml $PKG/etc/xdg/Thunar/uca.xml
+betik  = rm $PKG/usr/share/applications/thunar-settings.desktop
+betik  = rm $PKG/usr/share/applications/thunar-bulk-rename.desktop
