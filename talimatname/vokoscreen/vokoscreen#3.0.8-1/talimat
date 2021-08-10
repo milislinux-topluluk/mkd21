@@ -5,7 +5,7 @@ grup    = medya
 url     = http://linuxecke.volkoh.de/vokoscreen/vokoscreen.html
 
 [gerek]
-derleme = alsa-lib libx11 libxrandr qt5 qt5-tools v4l-utils ffmpeg gstreamer gst-plugins-base gst-plugins-others 
+derleme = alsa-lib libx11 libxrandr qt5 qt5-x11extras v4l-utils ffmpeg gstreamer gst-plugins-base gst-plugins-others 
 calisma =
 
 [kaynak]
