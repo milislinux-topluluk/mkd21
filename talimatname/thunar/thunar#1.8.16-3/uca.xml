@@ -187,7 +187,7 @@
 	<icon>utilities-terminal_su</icon>
 	<name>Open Admin Terminal</name>
 	<name xml:lang="tr">Yetkili Uçbirim aç</name>
-	<command>sakura -x &quot;sudo -EH env DISPLAY= lxterminal %f&quot;</command>
+	<command>sakura -x &quot;sudo -EH env DISPLAY= sakura %f&quot;</command>
 	<description>Use to open admin terminal in current directory</description>
 	<description xml:lang="tr">Mevcut dizinde yetkili uçbirim açmak için kullanın</description>
 	<patterns>*</patterns>
