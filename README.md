@@ -9,7 +9,7 @@
 #### Talimat nedir? Paketleme Nedir? Milis'te paketleme nasıl yapılır? ####
 
 * Bu konudaki tüm sorularınız için bkz:
- https://mls.akdeniz.edu.tr/belgeler/docs/tr/paketleme1.html
+ https://mls.akdeniz.edu.tr/git/milislinux/milis21/src/branch/master/belge/mps.md
 
 #### Yerel Depo Kullanımı ####
 
