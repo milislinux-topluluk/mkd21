@@ -3,9 +3,10 @@ tanim   = Wayland için basit bir başlatıcı paneli
 paketci = yasarciv
 grup    = masaüstü
 url     = https://git.sr.ht/~leon_plickat/lavalauncher
+arsiv	= $isim-v$surum
 
 [gerek]
-derleme = cairo wayland wayland-protocols meson ninja librsvg
+derleme = cairo wayland wayland-protocols meson ninja librsvg libxkbcommon
 calisma =
 
 [kaynak]
@@ -15,6 +16,7 @@ calisma =
 1       = 4d51d857ddfc682cf7dbc4dcd60a776b6816610230afead4608fdd7693261274
 
 [derle]
+ekconf	= -D man-pages=disabled
 tip     = meson
 
 [pakur]
