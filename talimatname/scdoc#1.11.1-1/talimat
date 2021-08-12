@@ -18,5 +18,5 @@ calisma =
 betik   =  make PREFIX=/usr LDFLAGS="$LDFLAGS"
 
 [pakur]
-tip     = gnu
+betik   = make PREFIX=/usr DESTDIR="$PKG" install
 

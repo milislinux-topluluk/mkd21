@@ -6,7 +6,7 @@ url     = https://git.sr.ht/~leon_plickat/lavalauncher
 arsiv	= $isim-v$surum
 
 [gerek]
-derleme = cairo wayland wayland-protocols meson ninja librsvg libxkbcommon
+derleme = cairo wayland wayland-protocols meson ninja librsvg libxkbcommon scdoc
 calisma =
 
 [kaynak]
@@ -16,7 +16,6 @@ calisma =
 1       = 4d51d857ddfc682cf7dbc4dcd60a776b6816610230afead4608fdd7693261274
 
 [derle]
-ekconf	= -D man-pages=disabled
 tip     = meson
 
 [pakur]
