@@ -1,0 +1,26 @@
+[paket]
+tanim   = uGet'in bir tarayıcıyla entegre olmasına izin vermek için yerel mesajlaşma komut dosyası
+paketci = yasarciv
+grup    = kütüphane
+url     = https://github.com/ugetdm/uget-integrator
+
+[gerek]
+derleme = python uget
+calisma =
+
+[kaynak]
+1       = https://github.com/ugetdm/uget-integrator/archive/v${surum}.tar.gz
+
+[sha256]
+1       = bbc85c32d94e2b6a21977c559f6e49cea9613028713df89e91327a23fef19fa9
+
+[derle]
+betik   = echo "Derleme yok"
+
+[pakur]
+betik	= mkdir -p $PKG/usr/bin
+betik   = install -m755 "bin/uget-integrator" "$PKG"/usr/bin/uget-integrator
+betik	= mkdir -p "$PKG/usr/lib/mozilla/native-messaging-hosts"
+betik	= install -m644 "conf/com.ugetdm.firefox.json" "$PKG"/usr/lib/mozilla/native-messaging-hosts/com.ugetdm.firefox.json
+betik	= mkdir -p "$PKG/etc/chromium/native-messaging-hosts"
+betik	= install -m644 "conf/com.ugetdm.chrome.json" "$PKG"/etc/chromium/native-messaging-hosts/com.ugetdm.chrome.json
