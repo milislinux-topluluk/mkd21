@@ -19,7 +19,7 @@
 * Yerel depo kullanarak paket kurmak ve kaldırmak daha kolay hale gelmektedir. Üstelik bağımlılık zinciri de sağlanmış olmaktadır.
 
 1) Bunun için önce Wayfire Config Manager > Autostart bölümüne `yd_baslat.sh` komutunu ekleyip çalıştırın.
-2) Sonra `/usr/milis/mps/conf/conf.lua` dosyasını [dosyalar](https://mls.akdeniz.edu.tr/git/milis-topluluk/mkd21/src/branch/master/dosyalar) klasöründeki _conf.lua_ dosyası ile değiştirin veya içeriğini aynı şekilde kopyalayın.
+2) Sonra `/usr/milis/mps/conf/conf.lua` dosyasını [dosyalar](https://github.com/milislinux-topluluk/mkd21/tree/master/dosyalar) klasöründeki _conf.lua_ dosyası ile değiştirin veya içeriğini aynı şekilde kopyalayın.
 3) _conf.lua_ dosyasındaki `--[2]="http://localhost:9999"` satırının başındaki -- ifadesini silip dosyayı kaydedin.
 4) terminalden `sudo mps gun` komutu verin. Burada yerel depoya ulaşamadığını belirten bir uyarı verecektir önemsemeyin.
 5) Paketleri ürettiğiniz `/mnt/mpsdo21/rw/opt` dizininde _paket.vt_ isimli boş bir dosya oluşturun ve aynı dizinde terminal açarak `toplu_pkvt_ekle.sh` komutu verin.
@@ -30,4 +30,4 @@ Eğer derleme ortamı kullanılmadan çalışan sistemde paket üretilmişse, ye
 
 
 * Paketleme konusunda takıldığınız yer olursa [https://mls.akdeniz.edu.tr/mm](https://mls.akdeniz.edu.tr/mm) adresinden kayıt olup geliştirici sohbet ortamında sorunlarınız hakkında yardım alabilirsiniz.
-* Talimat paylaşımı için katılım isteklerinizi [burada](https://mls.akdeniz.edu.tr/git/milis-topluluk/mkd21/issues) yeni bir konu açarak iletebilirsiniz.
+* Talimat paylaşımı için katılım isteklerinizi [burada](https://github.com/milislinux-topluluk/mkd21/issues) yeni bir konu açarak iletebilirsiniz.
