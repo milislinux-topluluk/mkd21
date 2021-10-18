@@ -5,16 +5,15 @@ grup    = medya
 url     = https://www.smtube.org/
 
 [kaynak]
-url	= https://downloads.sourceforge.net/project/smtube/SMTube/21.7.0/smtube-21.7.0.tar.bz2
+bz2		= https://downloads.sourceforge.net/project/smtube/SMTube/$surum
 
 [gerek]
 derleme = qt5
 calisma = gcc-libs glibc qt5-webkit qt5-script
 
 [derle]
-betik	= cd "$SRC/$isim-21.7.0"
 betik	= make PREFIX=/usr
 
 [pakur]
-betik 	= cd "$SRC/$isim-21.7.0"
-betik	= make PREFIX=/usr DESTDIR="$PKG/" install
+tip		= gnu
+;betik	= make PREFIX=/usr DESTDIR="$PKG/" install
