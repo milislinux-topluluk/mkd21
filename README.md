@@ -1,6 +1,5 @@
 ## Milis 2.1 Kullanıcı Deposu ##
 
-# Dikkat: Bu depodaki talimatların büyük bir kısmı önceki MKD deposundan devrolduğu için tümünün çalışacağı garanti değildir. #
  
 * Bu git deposu Milis Linux Kullanıcıları için oluşturulmuş gönüllü topluluk deposudur. Resmi Milis Linux deposu için: [https://mls.akdeniz.edu.tr/git/milislinux/milis21](https://mls.akdeniz.edu.tr/git/milislinux/milis21) adresine gidiniz.
 * Amaç Milis kullanıcılarının kendi talimatlarını oluşturup paylaşabilecekleri bir ortam oluşturmaktır.
