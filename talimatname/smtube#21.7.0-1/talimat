@@ -9,7 +9,7 @@ bz2		= https://downloads.sourceforge.net/project/smtube/SMTube/$surum
 
 [gerek]
 derleme = qt5
-calisma = gcc-libs glibc qt5-webkit qt5-script
+calisma = qt5-webkit
 
 [derle]
 betik	= make PREFIX=/usr
