@@ -17,6 +17,7 @@ bz2     = https://distfiles.${isim}-media-player.org
 2       = dad6fc625055349d589e36e8e5c8ae7dfafcddfe96894806509696d82bb61d4c
 
 [derle]
+ekconf	= --disable-gtk
 tip     = gnu
 betik   = make DESTDIR=$PKG install
 betik   = cd $SRC/audacious-plugins-$surum
