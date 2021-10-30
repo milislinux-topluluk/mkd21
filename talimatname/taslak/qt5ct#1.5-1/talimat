@@ -17,9 +17,9 @@ dosya	= qt5ct.sh
 2       = ffd11e4563fa9fba60e290e030f1eace0de54a5f4e1194e5f9f25ddd8e6026cb
 
 [derle]
-tip		= cmake
+tip		= qmake
 
 [pakur]
-tip		= cmake
+tip		= qmake
 betik	= install -Dm644 $SRC/qt5ct.sh  $PKG/etc/profile.d/qt5ct.sh
 
