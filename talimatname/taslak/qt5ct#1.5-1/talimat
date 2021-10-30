@@ -1,0 +1,25 @@
+[paket]
+tanim   = Qt5 Yapılandırma Aracı
+paketci = yasarciv
+grup    = sistem
+url     = https://sourceforge.net/projects/qt5ct
+
+[gerek]
+derleme = cmake qt5
+calisma =
+
+[kaynak]
+bz2     = ${SOURCEFORGE_SITE}/project/qt5ct
+dosya	= qt5ct.sh
+
+[sha256]
+1       = d63d0ce16e02427207d86531f70a71c5b9c850044dd5b2dcb2285531f416e490
+2       = 0920fc31f681e6625171f034ce41a134b328f44fdd794df9ba14101c0f9f1e07
+
+[derle]
+tip		= cmake
+
+[pakur]
+tip		= cmake
+betik	= install -Dm644 $SRC/qt5ct.sh  $PKG/etc/profile.d/qt5ct.sh
+
