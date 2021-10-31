@@ -5,7 +5,7 @@ grup    = sistem
 url     = https://sourceforge.net/projects/qt5ct
 
 [gerek]
-derleme = cmake qt5
+derleme = qt5
 calisma =
 
 [kaynak]

@@ -1,0 +1,23 @@
+[paket]
+tanim   = QT X11 ekstra bağlamları
+paketci = milisarge yasarciv
+grup 	= kütüphane
+url     = https://www.qt.io
+
+[gerek]
+derleme = qt5
+calisma = 
+
+[kaynak]
+1       = https://download.qt.io/official_releases/qt/${surum%.*}/$surum/submodules/qtx11extras-everywhere-src-$surum.tar.xz
+
+[sha256]
+1 		= 7014702ee9a644a5a93da70848ac47c18851d4f8ed622b29a72eed9282fc6e3e
+
+[derle]
+betik   = mkdir -p build && cd build && qmake ../qtx11extras-everywhere-src-$surum && make
+
+[pakur]
+betik   = cd build
+betik   = make INSTALL_ROOT=$PKG install
+betik   = find $PKG/usr/lib -type f -name '*.prl' -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
