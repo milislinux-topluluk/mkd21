@@ -1,0 +1,22 @@
+[paket]
+tanim   = Gnome için Arşiv Yöneticisi
+paketci = yasarciv
+grup    = sistem
+url     = https://wiki.gnome.org/Apps/FileRoller
+;arsiv	= 
+
+[gerek]
+derleme = meson
+calisma =
+
+[kaynak]
+xz       = ${GNOME_SITE}/${isim}/${surum%.*}
+
+[sha256]
+1       = 1c438e6d53ec10ff4f2eb5b22d7bbf28a7c2a84957ab64a751c1cdf3c52302c7
+
+[derle]
+tip     = meson
+
+[pakur]
+tip     = meson
