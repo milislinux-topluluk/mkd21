@@ -1,0 +1,23 @@
+[paket]
+tanim   = Gnome için bir Arşiv Yöneticisi
+paketci = yasarciv
+grup    = sistem
+url     = https://wiki.gnome.org/Apps/FileRoller
+;arsiv	= 
+
+[gerek]
+derleme = meson cmake glib gtk3 libnotify json-glib itstool libarchive
+calisma = unrar unzip p7zip
+
+[kaynak]
+xz       = ${GNOME_SITE}/${isim}/${surum%.*}
+
+[sha256]
+;1       = 4a2886a3966200fb0a9cbba4e2b79f8dad9d26556498aacdaed71775590b3c0d
+
+[derle]
+ekconf	= -D nautilus-actions=disabled
+tip     = meson
+
+[pakur]
+tip     = meson

@@ -1,0 +1,23 @@
+[paket]
+tanim   = LXQt sistem yapılandırması
+paketci = yasarciv
+grup    = sistem
+url     = https://github.com/lxqt/lxqt-config
+
+[gerek]
+derleme = cmake lxqt-build-tools liblxqt libxcursor libqtxdg qt5 libkscreen 
+; xf86-input-libinput 
+calisma = lxqt-themes
+
+[kaynak]
+xz      = $url/releases/download/${surum}
+
+[sha256]
+1       = 454550ae75b875eb59b4d0c93823b62ec1de3c781423607793d32055b1401d38
+
+[derle]
+ekconf	= -DWITH_INPUT=OFF
+tip     = cmake
+
+[pakur]
+tip     = cmake

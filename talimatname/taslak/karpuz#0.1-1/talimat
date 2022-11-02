@@ -1,0 +1,21 @@
+[paket]
+tanim   = Gtk kullanarak python3 programlama için özel olarak geliştirilmiş bir metin düzenleyici.
+paketci = yasarciv
+grup    = kütüphane
+url     = https://gitlab.com/sonakinci41/karpuz
+arsiv	= $isim-master
+
+[gerek]
+derleme = python-gobject python-cairo gtk3 gtksourceview4 vte3
+calisma = python-gobject python-cairo gtk3 gtksourceview4 vte3
+
+[kaynak]
+1	= https://gitlab.com/sonakinci41/karpuz/-/archive/master/karpuz-master.tar.bz2
+
+[sha256]
+
+[derle]
+tip     = py3
+
+[pakur]
+tip     = py3

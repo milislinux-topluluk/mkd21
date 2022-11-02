@@ -1,0 +1,10 @@
+libc.so.6
+libgcc_s.so.1
+liblxqt-globalkeys.so.1
+liblxqt.so.1
+libQt5Core.so.5
+libQt5DBus.so.5
+libQt5Gui.so.5
+libQt5Widgets.so.5
+libstdc++.so.6
+libX11.so.6

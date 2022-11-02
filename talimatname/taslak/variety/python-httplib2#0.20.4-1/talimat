@@ -1,0 +1,22 @@
+[paket]
+tanim   = Python için küçük, hızlı HTTP istemci kütüphanesi
+paketci = yasarciv
+grup    = kütüphane
+url     = https://github.com/httplib2/httplib2
+arsiv	= httplib2-$surum
+
+[gerek]
+derleme	= python ca-certificates
+calisma	= python ca-certificates
+
+[kaynak]
+1	= ${PYPI_SITE}/h/httplib2/httplib2-${surum}.tar.gz 
+
+[sha256]
+1	= 58a98e45b4b1a48273073f905d2961666ecf0fbac4250ea5b47aef259eb5c585
+
+[derle]
+tip	= py3
+
+[pakur]
+tip	= py3

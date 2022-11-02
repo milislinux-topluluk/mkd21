@@ -1,0 +1,22 @@
+[paket]
+tanim   = Uygulamalarda Uluslararası Etki Alanı Adları (IDNA)
+paketci = yasarciv
+grup    = kütüphane
+url     = https://github.com/kjd/idna
+arsiv	= idna-$surum
+
+[gerek]
+derleme	= python
+calisma	= python
+
+[kaynak]
+1	= ${PYPI_SITE}/i/idna/idna-${surum}.tar.gz
+
+[sha256]
+1	= c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407
+
+[derle]
+tip	= py3
+
+[pakur]
+tip	= py3

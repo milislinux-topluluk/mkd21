@@ -1,0 +1,22 @@
+[paket]
+tanim   = Cihaz boşta kalma süresinin tespiti ve bildirimi için çerçeve
+paketci = yasarciv
+grup    = kütüphane
+url     = https://projects.kde.org/projects/frameworks/kidletime
+
+[gerek]
+derleme = cmake extra-cmake-modules qt5 libxss
+calisma =
+
+[kaynak]
+xz      = https://download.kde.org/stable/frameworks/${surum%.*}
+
+[sha256]
+1       = 35a10914c694a03e2f45b969edd87dc8dc72fb30c44947dd8dfa3b45efc5042b
+
+[derle]
+ekconf     = -DBUILD_TESTING=OFF
+tip     = cmake
+
+[pakur]
+tip     = cmake

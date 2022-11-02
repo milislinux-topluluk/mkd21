@@ -1,0 +1,22 @@
+[paket]
+tanim   = KDE çerçeveleri - Pencereleme sistemine erişim
+paketci = yasarciv
+grup    = sistem
+url     = https://projects.kde.org/projects/frameworks/kwindowsystem
+
+[gerek]
+derleme = cmake extra-cmake-modules qt5 xcb-util-keysyms
+calisma =
+
+[kaynak]
+xz      = https://download.kde.org/stable/frameworks/${surum%.*}
+
+[sha256]
+1       = b822a796379a1ce03a4a9fad64aa6289ba7abd84e3b137af31d8043b9c5efef1
+
+[derle]
+ekconf     = -DBUILD_TESTING=OFF
+tip     = cmake
+
+[pakur]
+tip     = cmake

@@ -1,0 +1,23 @@
+[paket]
+tanim   = LXQt dosya yöneticisi, PCManFM'nin Qt portu
+paketci = yasarciv
+grup    = sistem
+url     = https://github.com/lxqt/pcmanfm-qt
+
+[gerek]
+derleme = cmake lxqt-build-tools qt5 libfm-qt lxmenu-data gvfs 
+calisma = lxmenu-data gvfs 
+
+[kaynak]
+xz      = $url/releases/download/${surum}
+
+
+[sha256]
+1       = 09e62a70aabd4eb4c1942b0dc4a24051d09510de0a5e8370dd06e9358b14945f
+
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

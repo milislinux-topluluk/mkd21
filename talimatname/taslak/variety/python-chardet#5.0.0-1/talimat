@@ -1,0 +1,22 @@
+[paket]
+tanim   = Karakter kodlama otomatik algılama için Python3 modülü
+paketci = yasarciv
+grup    = geliştirme
+url     = https://github.com/chardet/chardet
+arsiv	= chardet-$surum
+
+[gerek]
+derleme	= python
+calisma	= python
+
+[kaynak]
+1	= ${PYPI_SITE}/c/chardet/chardet-${surum}.tar.gz
+
+[sha512]
+1	= 3853248584d53d977abe0e6ab856e1526fd7360d9b94b4f08d03895da80ba9efac8882dbd3f919f0d52b0699c0d7fd68edb223c37512685976c6f2b212fbe0ff
+
+[derle]
+tip	= py3
+
+[pakur]
+tip	= py3

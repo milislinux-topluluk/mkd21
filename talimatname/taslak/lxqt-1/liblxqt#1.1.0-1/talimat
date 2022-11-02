@@ -1,0 +1,21 @@
+[paket]
+tanim   = Tüm LXQt bileşenleri için çekirdek yardımcı program kütüphanesi
+paketci = yasarciv
+grup    = kütüphane
+url     = https://github.com/lxqt/liblxqt
+
+[gerek]
+derleme = cmake lxqt-build-tools libqtxdg polkit-qt-1 qt5 kwindowsystem libxss libx11
+calisma = 
+
+[kaynak]
+xz      = $url/releases/download/${surum}
+
+[sha256]
+1       = 364db8bad17c0aad12c04cda15a7c74c80dec96b1ef4b1175aec9282c39b2cba
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

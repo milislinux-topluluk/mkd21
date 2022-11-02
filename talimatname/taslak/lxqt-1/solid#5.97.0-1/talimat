@@ -1,0 +1,22 @@
+[paket]
+tanim   = KDE çerçeveleri - Donanım entegrasyonu ve tespiti
+paketci = yasarciv
+grup    = kütüphane
+url     = https://projects.kde.org/projects/frameworks/solid
+
+[gerek]
+derleme = cmake extra-cmake-modules qt5 upower udisks media-player-info
+calisma =
+
+[kaynak]
+xz      = https://download.kde.org/stable/frameworks/${surum%.*}
+
+[sha256]
+1       = 84c0ad4678c2ef6563db8a1dd907a8b9c4a2e8db7afc691a24b27189d6a24c9d
+
+[derle]
+ekconf     = -DBUILD_TESTING=OFF -DWITH_NEW_POWER_ASYNC_API=ON -DWITH_NEW_POWER_ASYNC_FREEDESKTOP=ON -DWITH_NEW_SOLID_JOB=ON
+tip     = cmake
+
+[pakur]
+tip     = cmake

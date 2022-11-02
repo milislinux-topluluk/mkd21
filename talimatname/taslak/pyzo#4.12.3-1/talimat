@@ -1,0 +1,22 @@
+[paket]
+tanim   = Platformlar arası Python IDE, bilimsel bilgi işlem için çok uygun olan etkileşim ve iç gözleme odaklanmıştır.
+paketci = yasarciv
+grup    = geliştirme
+url     = https://pyzo.org/
+
+[gerek]
+derleme = python python-qt5 python-packaging
+calisma = python python-qt5 python-packaging
+
+[kaynak]
+gz	= https://github.com/pyzo/pyzo/archive/v${surum}
+
+[sha256]
+1	= 2c2e4bd5206cc26901d58de68ef7daa3923734c3dc6a78755b5930371e47807c
+
+[derle]
+tip     = py3
+
+[pakur]
+tip     = py3
+dosya	= pakur.sh

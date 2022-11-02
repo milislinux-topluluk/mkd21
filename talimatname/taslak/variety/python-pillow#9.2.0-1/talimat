@@ -1,0 +1,22 @@
+[paket]
+tanim   = Python Görüntüleme Kütüphanesi (PIL) çatalı.
+paketci = yasarciv
+grup    = kütüphane
+url     = https://python-pillow.org
+arsiv	= Pillow-$surum
+
+[gerek]
+derleme    = python libjpeg-turbo openjpeg2 zlib tiff freetype lcms2 libwebp tcl libimagequant libraqm
+calisma    = libimagequant
+
+[kaynak]
+1          = ${PYPI_SITE}/P/Pillow/Pillow-${surum}.tar.gz
+
+[sha256]
+;1          = bf4e972a88f8841d8fdc6db1a75e0f8d763e66e3754b03006cbc3854d89f1cb1
+
+[derle]
+tip        = py3
+
+[pakur]
+tip        = py3

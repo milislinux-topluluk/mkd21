@@ -1,0 +1,21 @@
+[paket]
+tanim   = PCManFM-Qt çekirdek kütüphanesi
+paketci = yasarciv
+grup    = kütüphane
+url     = https://github.com/lxqt/libfm-qt
+
+[gerek]
+derleme = cmake lxqt-build-tools qt5 libexif menu-cache
+calisma =
+
+[kaynak]
+xz      = $url/releases/download/${surum}
+
+[sha256]
+1       = a5eecf0c9725c1a32470eaf539989563ba53ea6ed916454cc47e940279c04e54
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

@@ -1,0 +1,21 @@
+[paket]
+tanim   = LXQt PolicyKit aracısı
+paketci = yasarciv
+grup    = sistem
+url     = https://lxqt.github.io
+
+[gerek]
+derleme = cmake lxqt-build-tools qt5 polkit-qt-1 liblxqt
+calisma =
+
+[kaynak]
+xz      = https://github.com/lxqt/lxqt-policykit/releases/download/${surum}
+
+[sha256]
+1       = 3911e66332747e2fa0b9905aab52568b25afaadd419caf1fb74cab7c1d7b0f94
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

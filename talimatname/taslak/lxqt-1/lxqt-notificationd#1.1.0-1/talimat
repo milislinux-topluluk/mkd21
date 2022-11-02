@@ -1,0 +1,21 @@
+[paket]
+tanim   = LXQt bildirim arka plan programı
+paketci = yasarciv
+grup    = kütüphane
+url     = https://github.com/lxqt/lxqt-notificationd
+
+[gerek]
+derleme = cmake lxqt-build-tools liblxqt kwindowsystem libqtxdg qt5
+calisma =
+
+[kaynak]
+xz      = $url/releases/download/${surum}
+
+[sha256]
+1       = 84fc1424956a68fef10859561be3602c16ec03ac187fdce7dd3fa4b277c3e32f
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

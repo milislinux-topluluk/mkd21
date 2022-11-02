@@ -1,0 +1,21 @@
+[paket]
+tanim   = Basit ve hafif bir masaüstü bağımsız Qt dosya arşivleyicisi
+paketci = yasarciv
+grup    = sistem
+url     = https://github.com/lxqt/lxqt-archiver
+
+[gerek]
+derleme = cmake lxqt-build-tools qt5 libfm-qt glib json-glib
+calisma = libarchive
+
+[kaynak]
+xz	= $url/releases/download/${surum}
+
+[sha256]
+1	= 80f11715452438eae8dde8e37169e082b3ff8e484c5d71449c025277f3c9bdb3
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

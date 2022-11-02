@@ -1,0 +1,23 @@
+[paket]
+tanim   = Güç cihazlarını numaralandırmak için soyutlama
+paketci = yasarciv
+grup    = kütüphane
+url     = https://gitlab.freedesktop.org/upower/upower
+arsiv   = "upower-v${surum}"
+
+[gerek]
+derleme = meson gettext glib gobject-introspection libxslt libusb libgudev dbus-glib polkit libimobiledevice
+calisma =
+
+[kaynak]
+1       = https://gitlab.freedesktop.org/upower/upower/-/archive/v${surum}/upower-v${surum}.tar.bz2
+
+[sha256]
+;1       = de7177deb2ee23d9c505046c74a856564acab8fd1d39aa1541d123af5a99ca8d
+
+[derle]
+ekconf     = -Dos_backend=linux -Dsystemdsystemunitdir=no -Dgtk-doc=false -Dman=false
+tip     = meson
+
+[pakur]
+tip     = meson

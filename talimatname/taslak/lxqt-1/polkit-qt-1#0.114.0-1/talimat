@@ -1,0 +1,21 @@
+[paket]
+tanim   = Qt tarzı PolicyKit API'sı (Qt5)
+paketci = yasarciv
+grup    = sistem
+url     = https://projects.kde.org/projects/kdesupport/polkit-qt-1
+
+[gerek]
+derleme = cmake polkit qt5
+calisma =
+
+[kaynak]
+xz      = https://download.kde.org/stable/$isim
+
+[sha256]
+1       = 2eb0f22445888295ffa2bfbc0c3693847a0f973bb6b0c3e4cce0218be7e3907e
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

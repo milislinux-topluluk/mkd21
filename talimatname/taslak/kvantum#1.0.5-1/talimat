@@ -1,0 +1,22 @@
+[paket]
+tanim   = Qt5, KDE ve LXQt için SVG tabanlı tema motoru
+paketci = Yaşar Çiv
+grup    = tasarım
+url     = https://github.com/tsujan/Kvantum
+arsiv	= Kvantum-$surum/Kvantum
+
+[gerek]
+derleme = cmake qt5 kwindowsystem
+calisma =
+
+[kaynak]
+1       = https://github.com/tsujan/Kvantum/releases/download/V$surum/Kvantum-$surum.tar.xz
+
+[sha256]
+1       = 7db73587715020a819e5424e5c1e8ab1c789ac515ec2c0a016ed27085feca8c8
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

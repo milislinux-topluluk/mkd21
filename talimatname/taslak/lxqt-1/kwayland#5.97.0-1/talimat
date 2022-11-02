@@ -1,0 +1,22 @@
+[paket]
+tanim   = Wayland kütüphaneleri için Qt tarzı istemci ve sunucu kütüphanesi sarmalayıcısı
+paketci = yasarciv
+grup    = kütüphane
+url     = https://projects.kde.org/projects/frameworks/kwayland
+
+[gerek]
+derleme = cmake extra-cmake-modules qt5-wayland plasma-wayland-protocols wayland wayland-protocols
+calisma =
+
+[kaynak]
+xz      = https://download.kde.org/stable/frameworks/${surum%.*}
+
+[sha256]
+1       = e571016c89cccd5ae1a455c8f2abe59f8edab787e3cd7a165059bf365130ca3c
+
+[derle]
+ekconf     = -DBUILD_TESTING=OFF
+tip     = cmake
+
+[pakur]
+tip     = cmake

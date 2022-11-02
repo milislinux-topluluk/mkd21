@@ -1,0 +1,9 @@
+libc.so.6
+libKF5WindowSystem.so.5
+liblxqt.so.1
+libQt5Core.so.5
+libQt5DBus.so.5
+libQt5Gui.so.5
+libQt5Widgets.so.5
+libQt5Xdg.so.3
+libstdc++.so.6

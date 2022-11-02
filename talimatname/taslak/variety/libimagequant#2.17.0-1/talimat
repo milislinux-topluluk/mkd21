@@ -1,0 +1,23 @@
+[paket]
+tanim   = Palet niceleme kitaplığı
+paketci = yasarciv
+grup    = kütüphane
+url     = https://pngquant.org/lib/
+
+[gerek]
+derleme = libgomp
+calisma =
+
+[kaynak]
+1       = https://github.com/ImageOptim/libimagequant/archive/${surum}.tar.gz
+
+[sha256]
+1       = 9f6cc50182be4d2ece75118aa0b0fd3e9bbad06e94fd6b9eb3a4c08129c2dd26
+
+[derle]
+ekconf  = --with-openmp
+tip     = gnu
+
+[pakur]
+tip     = gnu
+

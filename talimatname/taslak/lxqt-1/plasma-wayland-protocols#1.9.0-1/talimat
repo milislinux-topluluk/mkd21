@@ -1,0 +1,21 @@
+[paket]
+tanim   = Wayland için Plazma Spesifik Protokoller
+paketci = yasarciv
+grup    = kütüphane
+url     = https://invent.kde.org/libraries/plasma-wayland-protocols
+
+[gerek]
+derleme = qt5 extra-cmake-modules
+calisma =
+
+[kaynak]
+1       = ${KDE_SITE}/${isim}/${isim}-${surum}.tar.xz
+
+[sha256]
+1       = a4275b9a854716fa5ed9c2ba2d697df2b0749fc45a28ad965e68d0aa36c5d4c8
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

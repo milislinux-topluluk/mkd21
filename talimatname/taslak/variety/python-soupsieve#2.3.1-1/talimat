@@ -1,0 +1,22 @@
+[paket]
+tanim   = Beautiful Soup için bir CSS4 seçici uygulaması
+paketci = yasarciv
+grup    = geliştirme
+url     = https://facelessuser.github.io/soupsieve
+arsiv	= soupsieve-$surum
+
+[gerek]
+derleme	= python
+calisma	= python
+
+[kaynak]
+1	= ${PYPI_SITE}/s/soupsieve/soupsieve-${surum}.tar.gz
+
+[sha256]
+1	= b8d49b1cd4f037c7082a9683dfa1801aa2597fb11c3a1155b7a5b94829b4f1f9
+
+[derle]
+tip	= py3
+
+[pakur]
+tip	= py3

@@ -1,0 +1,21 @@
+[paket]
+tanim   = Sistem istatistiklerine Qt tabanlı arayüz
+paketci = yasarciv
+grup    = kütüphane
+url     = https://github.com/lxqt/libsysstat
+
+[gerek]
+derleme = cmake lxqt-build-tools qt5
+calisma =
+
+[kaynak]
+xz      = $url/releases/download/${surum}
+
+[sha256]
+1       = e6c6383d6d6e0e67791be812329cb245035eed35e201e01088515e3ffefb13be
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake
